@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             controller = MediaController(this)
             videoid.setMediaController(controller)
             controller!!.setAnchorView(videoid)
-            makeText(this, "Thanks for Watching!! ",Toast.LENGTH_LONG ).show()
+            makeText(this, "Thanks for Watching so much!! ",Toast.LENGTH_LONG ).show()
         }
 
     }
